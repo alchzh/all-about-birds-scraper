@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <base href="{{ baseURL }}"/>
+        <!-- <link rel="stylesheet" href="/sgapp/stylesheets/app68.css"> -->
+    </head>
+    <body>
+        <style>
+            * {
+                font-size: 9pt;
+                font-family: Arial;
+            }
+
+            a > span {
+                margin-left: 5px;
+            }
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+
+            #table1 td {
+                vertical-align: top;
+                width: 50%;
+            }
+
+            #table2 td {
+                width: 33%;
+            }
+
+            .column {
+                column-count: 2;
+            }
+        </style>
+        <div>
+            <div class="column">
+                <tr>
+                    <td class="speciesInfoCard">
+                        {{ infoCard }}
+                    </td>
+                    <td>
+                        {{ sizeShapeCard }}
+                    </td>
+                </tr>
+                <tr>
+                    <td><h3>Size & Shape</h3>{{ sizeShape }}</td>
+                    <td><h3>Color Pattern</h3>{{ colorPattern }}</td>
+                </tr>
+                <tr>
+                    <td><h3>Behavior</h3>{{ behavior }}</td>
+                    <td><h3>Habitat</h3>{{ habitat }}</td>
+                </tr>
+                <tr>
+                    <td><h3>Regional Differences</h3>{{ regionalDifferences }}</td>
+                    <td><h3>Habitat (det)</h3>{{ lhHabitat }}</td>
+                </tr>
+                <tr>
+                    <td><h3>Food</h3>{{ lhFood }}</td>
+                    <td><h3>Nesting</h3>{{ lhNestPlacement }}<br>{{ lhNestDescription }}</td>
+                </tr>
+                <tr>
+                    <td><h3>Behavior (det.)</h3>{{ lhBehavior }}</td>
+                    <td><h3>Conservation</h3>{{ lhConservation }}</td>
+                </tr>
+            </div>
+            <table id="table2">
+                {% for row in imgs | batch(3, { 'annotation': '', 'url': ''}) %}
+                <tr>
+                    {% for i in row %}
+                        <td><img width="200px" src="{{ i['url'] }}"></img></td>
+                    {% endfor %}
+                </tr>
+                <tr>
+                    {% for i in row %}
+                        <td>{{ i['annotation'] }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </body>
+</html>
