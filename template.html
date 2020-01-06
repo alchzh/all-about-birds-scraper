@@ -3,6 +3,8 @@
         <meta charset="utf-8">
         <base href="{{ baseURL }}"/>
         <!-- <link rel="stylesheet" href="/sgapp/stylesheets/app68.css"> -->
+        <link href="https://cdn.jsdelivr.net/npm/froala-editor@3.0.6/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/froala-editor@3.0.6/js/froala_editor.pkgd.min.js"></script>
     </head>
     <body>
         <style>
@@ -32,8 +34,12 @@
             .column {
                 column-count: 2;
             }
+
+            .fr-wrapper > div:first-child > a {
+                display: none !important;
+            }
         </style>
-        <div>
+        <div id="content">
             <div class="column">
                 <tr>
                     <td class="speciesInfoCard">
@@ -80,4 +86,9 @@
             </table>
         </div>
     </body>
+    <script>
+    new FroalaEditor('div#content', {
+        toolbarInline: true,
+    })
+    </script>
 </html>
