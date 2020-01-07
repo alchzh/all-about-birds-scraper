@@ -3,6 +3,10 @@ import requests
 from urllib.parse import urljoin
 from markupsafe import Markup
 
+import requests_cache
+
+requests_cache.install_cache('allaboutbirds_cache_01062020')
+
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0'
 }
@@ -82,7 +86,10 @@ def scrape(baseURL):
     return results
 
 if __name__ == "__main__":
-    from jinja2 import Template
+    from jinja2 import Environment, FileSystemLoader
+    with open("template.html") as f:
+        template_str = f.read()
+    template = Environment(loader=FileSystemLoader(".")).from_string(template_str)
 
     def safeResult(soup):
         return Markup(str(soup))
@@ -97,7 +104,7 @@ if __name__ == "__main__":
             try:
                 arguments = { k: safeResult(v) if isinstance(v, BeautifulSoup) else v for k, v in scrape(url).items() }
                 arguments['baseURL'] = url
-                output = Template(open('template.html').read()).render(arguments)
+                output = template.render(arguments)
 
                 with open('birds/{:03d}_{}.html'.format(int(i), bird), 'w') as outfile:
                     outfile.write(output)
