@@ -1,0 +1,1559 @@
+{
+  "orders": {
+    "Anseriformes": {
+      "families": [
+        "Anatidae"
+      ]
+    },
+    "Galliformes": {
+      "families": [
+        "Odontophoridae",
+        "Phasianidae"
+      ]
+    },
+    "Gaviiformes": {
+      "families": [
+        "Gaviidae"
+      ]
+    },
+    "Procellariiformes": {
+      "families": [
+        "Diomedeidae",
+        "Procellariidae"
+      ]
+    },
+    "Podicipediformes": {
+      "families": [
+        "Podicipedidae"
+      ]
+    },
+    "Pelecaniformes": {
+      "families": [
+        "Pelecanidae",
+        "Ardeidae",
+        "Threskiornithidae"
+      ]
+    },
+    "Suliformes": {
+      "families": [
+        "Fregatidae",
+        "Anhingidae",
+        "Phalacrocoracidae"
+      ]
+    },
+    "Ciconiiformes": {
+      "families": [
+        "Ciconiidae"
+      ]
+    },
+    "Falconiformes": {
+      "families": [
+        "Falconidae"
+      ]
+    },
+    "Accipitriformes": {
+      "families": [
+        "Pandionidae",
+        "Accipitridae"
+      ]
+    },
+    "Cathartiformes": {
+      "families": [
+        "Cathartidae"
+      ]
+    },
+    "Gruiformes": {
+      "families": [
+        "Rallidae",
+        "Gruidae"
+      ]
+    },
+    "Charadriiformes": {
+      "families": [
+        "Recurvirostridae",
+        "Haematopodidae",
+        "Charadriidae",
+        "Scolopacidae",
+        "Alcidae",
+        "Laridae"
+      ]
+    },
+    "Columbiformes": {
+      "families": [
+        "Columbidae"
+      ]
+    },
+    "Cuculiformes": {
+      "families": [
+        "Cuculidae"
+      ]
+    },
+    "Strigiformes": {
+      "families": [
+        "Tytonidae",
+        "Strigidae"
+      ]
+    },
+    "Caprimulgiformes": {
+      "families": [
+        "Caprimulgidae"
+      ]
+    },
+    "Apodiformes": {
+      "families": [
+        "Apodidae",
+        "Trochilidae"
+      ]
+    },
+    "Coraciiformes": {
+      "families": [
+        "Alcedinidae"
+      ]
+    },
+    "Piciformes": {
+      "families": [
+        "Picidae"
+      ]
+    },
+    "Passeriformes": {
+      "families": [
+        "Tyrannidae",
+        "Laniidae",
+        "Vireonidae",
+        "Corvidae",
+        "Alaudidae",
+        "Hirundinidae",
+        "Paridae",
+        "Sittidae",
+        "Certhiidae",
+        "Troglodytidae",
+        "Cinclidae",
+        "Regulidae",
+        "Polioptilidae",
+        "Turdidae",
+        "Mimidae",
+        "Bombycillidae",
+        "Parulidae",
+        "Passerellidae",
+        "Calcariidae",
+        "Cardinalidae",
+        "Icteridae",
+        "Fringillidae",
+        "Passeridae",
+        "Sturnidae"
+      ]
+    }
+  },
+  "families": {
+    "Anatidae": {
+      "commonName": "Ducks, Geese, and Waterfowl",
+      "species": [
+        "bbwduc",
+        "snogoo",
+        "cangoo",
+        "truswa",
+        "wooduc",
+        "norsho",
+        "mallar3",
+        "gnwtea",
+        "canvas",
+        "hoomer"
+      ]
+    },
+    "Odontophoridae": {
+      "commonName": "New World Quail",
+      "species": [
+        "norbob"
+      ]
+    },
+    "Phasianidae": {
+      "commonName": "Pheasants, Grouse, and Allies",
+      "species": [
+        "rinphe",
+        "rufgro",
+        "wiltur"
+      ]
+    },
+    "Podicipedidae": {
+      "commonName": "Grebes",
+      "species": [
+        "pibgre",
+        "rengre"
+      ]
+    },
+    "Columbidae": {
+      "commonName": "Pigeons and Doves",
+      "species": [
+        "rocpig",
+        "cogdov",
+        "moudov"
+      ]
+    },
+    "Cuculidae": {
+      "commonName": "Cuckoos",
+      "species": [
+        "greroa",
+        "bkbcuc"
+      ]
+    },
+    "Caprimulgidae": {
+      "commonName": "Nightjars and Allies",
+      "species": [
+        "comnig",
+        "chwwid"
+      ]
+    },
+    "Apodidae": {
+      "commonName": "Swifts",
+      "species": [
+        "chiswi"
+      ]
+    },
+    "Trochilidae": {
+      "commonName": "Hummingbirds",
+      "species": [
+        "rthhum"
+      ]
+    },
+    "Rallidae": {
+      "commonName": "Rails, Gallinules, and Coots",
+      "species": [
+        "clarai11",
+        "sora",
+        "y00475",
+        "purgal2"
+      ]
+    },
+    "Gruidae": {
+      "commonName": "Cranes",
+      "species": [
+        "whocra"
+      ]
+    },
+    "Recurvirostridae": {
+      "commonName": "Stilts and Avocets",
+      "species": [
+        "bknsti",
+        "ameavo"
+      ]
+    },
+    "Haematopodidae": {
+      "commonName": "Oystercatchers",
+      "species": [
+        "ameoys"
+      ]
+    },
+    "Charadriidae": {
+      "commonName": "Plovers and Lapwings",
+      "species": [
+        "amgplo",
+        "killde"
+      ]
+    },
+    "Scolopacidae": {
+      "commonName": "Sandpipers and Allies",
+      "species": [
+        "rudtur",
+        "dunlin",
+        "amewoo",
+        "wilsni1",
+        "sposan"
+      ]
+    },
+    "Alcidae": {
+      "commonName": "Auks, Murres, and Puffins",
+      "species": [
+        "commur",
+        "tufpuf"
+      ]
+    },
+    "Laridae": {
+      "commonName": "Gulls, Terns, and Skimmers",
+      "species": [
+        "laugul",
+        "ribgul",
+        "hergul",
+        "leater1",
+        "caster1",
+        "blkter",
+        "blkski"
+      ]
+    },
+    "Gaviidae": {
+      "commonName": "Loons",
+      "species": [
+        "retloo",
+        "comloo"
+      ]
+    },
+    "Diomedeidae": {
+      "commonName": "Albatrosses",
+      "species": [
+        "layalb"
+      ]
+    },
+    "Procellariidae": {
+      "commonName": "Shearwaters and Petrels",
+      "species": [
+        "norful"
+      ]
+    },
+    "Ciconiidae": {
+      "commonName": "Storks",
+      "species": [
+        "woosto"
+      ]
+    },
+    "Fregatidae": {
+      "commonName": "Frigatebirds",
+      "species": [
+        "magfri"
+      ]
+    },
+    "Anhingidae": {
+      "commonName": "Anhingas",
+      "species": [
+        "anhing"
+      ]
+    },
+    "Phalacrocoracidae": {
+      "commonName": "Cormorants and Shags",
+      "species": [
+        "doccor"
+      ]
+    },
+    "Pelecanidae": {
+      "commonName": "Pelicans",
+      "species": [
+        "amwpel"
+      ]
+    },
+    "Ardeidae": {
+      "commonName": "Herons, Egrets, and Bitterns",
+      "species": [
+        "amebit",
+        "grbher3",
+        "snoegr",
+        "grnher",
+        "bcnher"
+      ]
+    },
+    "Threskiornithidae": {
+      "commonName": "Ibises and Spoonbills",
+      "species": [
+        "rosspo1"
+      ]
+    },
+    "Cathartidae": {
+      "commonName": "New World Vultures",
+      "species": [
+        "calcon",
+        "turvul"
+      ]
+    },
+    "Pandionidae": {
+      "commonName": "Osprey",
+      "species": [
+        "osprey"
+      ]
+    },
+    "Accipitridae": {
+      "commonName": "Hawks, Eagles, and Kites",
+      "species": [
+        "goleag",
+        "norhar2",
+        "coohaw",
+        "baleag",
+        "rethaw"
+      ]
+    },
+    "Tytonidae": {
+      "commonName": "Barn-Owls",
+      "species": [
+        "brnowl"
+      ]
+    },
+    "Strigidae": {
+      "commonName": "Owls",
+      "species": [
+        "screec1",
+        "grhowl",
+        "snoowl1",
+        "brdowl"
+      ]
+    },
+    "Alcedinidae": {
+      "commonName": "Kingfishers",
+      "species": [
+        "belkin1"
+      ]
+    },
+    "Picidae": {
+      "commonName": "Woodpeckers",
+      "species": [
+        "yebsap",
+        "rehwoo",
+        "dowwoo",
+        "pilwoo",
+        "norfli"
+      ]
+    },
+    "Falconidae": {
+      "commonName": "Falcons and Caracaras",
+      "species": [
+        "crecar1",
+        "amekes",
+        "perfal"
+      ]
+    },
+    "Tyrannidae": {
+      "commonName": "Tyrant Flycatchers",
+      "species": [
+        "olsfly",
+        "easpho",
+        "verfly",
+        "grcfly",
+        "easkin",
+        "sctfly"
+      ]
+    },
+    "Vireonidae": {
+      "commonName": "Vireos, Shrike-Babblers, and Erpornis",
+      "species": [
+        "warvir",
+        "reevir1"
+      ]
+    },
+    "Laniidae": {
+      "commonName": "Shrikes",
+      "species": [
+        "logshr"
+      ]
+    },
+    "Corvidae": {
+      "commonName": "Crows, Jays, and Magpies",
+      "species": [
+        "stejay",
+        "blujay",
+        "bkbmag1",
+        "amecro",
+        "comrav"
+      ]
+    },
+    "Paridae": {
+      "commonName": "Tits, Chickadees, and Titmice",
+      "species": [
+        "bkcchi",
+        "tuftit"
+      ]
+    },
+    "Alaudidae": {
+      "commonName": "Larks",
+      "species": [
+        "horlar"
+      ]
+    },
+    "Hirundinidae": {
+      "commonName": "Swallows",
+      "species": [
+        "purmar",
+        "barswa",
+        "cliswa"
+      ]
+    },
+    "Regulidae": {
+      "commonName": "Kinglets",
+      "species": [
+        "gockin",
+        "ruckin"
+      ]
+    },
+    "Sittidae": {
+      "commonName": "Nuthatches",
+      "species": [
+        "rebnut",
+        "whbnut"
+      ]
+    },
+    "Certhiidae": {
+      "commonName": "Treecreepers",
+      "species": [
+        "brncre"
+      ]
+    },
+    "Polioptilidae": {
+      "commonName": "Gnatcatchers",
+      "species": [
+        "buggna"
+      ]
+    },
+    "Troglodytidae": {
+      "commonName": "Wrens",
+      "species": [
+        "marwre",
+        "carwre",
+        "cacwre"
+      ]
+    },
+    "Cinclidae": {
+      "commonName": "Dippers",
+      "species": [
+        "amedip"
+      ]
+    },
+    "Sturnidae": {
+      "commonName": "Starlings",
+      "species": [
+        "eursta"
+      ]
+    },
+    "Mimidae": {
+      "commonName": "Mockingbirds and Thrashers",
+      "species": [
+        "grycat",
+        "brnthr",
+        "normoc"
+      ]
+    },
+    "Turdidae": {
+      "commonName": "Thrushes and Allies",
+      "species": [
+        "easblu",
+        "woothr",
+        "amerob"
+      ]
+    },
+    "Bombycillidae": {
+      "commonName": "Waxwings",
+      "species": [
+        "cedwax"
+      ]
+    },
+    "Passeridae": {
+      "commonName": "Old World Sparrows",
+      "species": [
+        "houspa"
+      ]
+    },
+    "Fringillidae": {
+      "commonName": "Finches, Euphonias, and Allies",
+      "species": [
+        "evegro",
+        "houfin",
+        "redcro",
+        "pinsis",
+        "amegfi"
+      ]
+    },
+    "Calcariidae": {
+      "commonName": "Longspurs and Snow Buntings",
+      "species": [
+        "laplon",
+        "snobun"
+      ]
+    },
+    "Passerellidae": {
+      "commonName": "New World Sparrows",
+      "species": [
+        "chispa",
+        "bkcspa",
+        "larspa",
+        "daejun",
+        "whcspa",
+        "harspa",
+        "spotow"
+      ]
+    },
+    "Icteridae": {
+      "commonName": "Troupials and Allies",
+      "species": [
+        "yehbla",
+        "boboli",
+        "wesmea",
+        "balori",
+        "rewbla",
+        "bnhcow",
+        "comgra"
+      ]
+    },
+    "Parulidae": {
+      "commonName": "New World Warblers",
+      "species": [
+        "ovenbi1",
+        "bawwar",
+        "kenwar",
+        "comyel",
+        "amered",
+        "magwar",
+        "yelwar",
+        "yerwar",
+        "btnwar"
+      ]
+    },
+    "Cardinalidae": {
+      "commonName": "Cardinals and Allies",
+      "species": [
+        "scatan",
+        "norcar",
+        "indbun",
+        "paibun"
+      ]
+    }
+  },
+  "species": {
+    "bbwduc": {
+      "commonName": "Black-bellied Whistling-Duck",
+      "family": "Anatidae",
+      "order": "Anseriformes",
+      "enabled": true
+    },
+    "snogoo": {
+      "commonName": "Snow Goose",
+      "family": "Anatidae",
+      "order": "Anseriformes",
+      "enabled": true
+    },
+    "cangoo": {
+      "commonName": "Canada Goose",
+      "family": "Anatidae",
+      "order": "Anseriformes",
+      "enabled": true
+    },
+    "truswa": {
+      "commonName": "Trumpeter Swan",
+      "family": "Anatidae",
+      "order": "Anseriformes",
+      "enabled": true
+    },
+    "wooduc": {
+      "commonName": "Wood Duck",
+      "family": "Anatidae",
+      "order": "Anseriformes",
+      "enabled": true
+    },
+    "norsho": {
+      "commonName": "Northern Shoveler",
+      "family": "Anatidae",
+      "order": "Anseriformes",
+      "enabled": true
+    },
+    "mallar3": {
+      "commonName": "Mallard",
+      "family": "Anatidae",
+      "order": "Anseriformes",
+      "enabled": true
+    },
+    "gnwtea": {
+      "commonName": "Green-winged Teal",
+      "family": "Anatidae",
+      "order": "Anseriformes",
+      "enabled": true
+    },
+    "canvas": {
+      "commonName": "Canvasback",
+      "family": "Anatidae",
+      "order": "Anseriformes",
+      "enabled": true
+    },
+    "hoomer": {
+      "commonName": "Hooded Merganser",
+      "family": "Anatidae",
+      "order": "Anseriformes",
+      "enabled": true
+    },
+    "norbob": {
+      "commonName": "Northern Bobwhite",
+      "family": "Odontophoridae",
+      "order": "Galliformes",
+      "enabled": true
+    },
+    "rinphe": {
+      "commonName": "Ring-necked Pheasant",
+      "family": "Phasianidae",
+      "order": "Galliformes",
+      "enabled": true
+    },
+    "rufgro": {
+      "commonName": "Ruffed Grouse",
+      "family": "Phasianidae",
+      "order": "Galliformes",
+      "enabled": true
+    },
+    "wiltur": {
+      "commonName": "Wild Turkey",
+      "family": "Phasianidae",
+      "order": "Galliformes",
+      "enabled": true
+    },
+    "pibgre": {
+      "commonName": "Pied-billed Grebe",
+      "family": "Podicipedidae",
+      "order": "Podicipediformes",
+      "enabled": true
+    },
+    "rengre": {
+      "commonName": "Red-necked Grebe",
+      "family": "Podicipedidae",
+      "order": "Podicipediformes",
+      "enabled": true
+    },
+    "rocpig": {
+      "commonName": "Rock Pigeon",
+      "family": "Columbidae",
+      "order": "Columbiformes",
+      "enabled": true
+    },
+    "cogdov": {
+      "commonName": "Common Ground Dove",
+      "family": "Columbidae",
+      "order": "Columbiformes",
+      "enabled": true
+    },
+    "moudov": {
+      "commonName": "Mourning Dove",
+      "family": "Columbidae",
+      "order": "Columbiformes",
+      "enabled": true
+    },
+    "greroa": {
+      "commonName": "Greater Roadrunner",
+      "family": "Cuculidae",
+      "order": "Cuculiformes",
+      "enabled": true
+    },
+    "bkbcuc": {
+      "commonName": "Black-billed Cuckoo",
+      "family": "Cuculidae",
+      "order": "Cuculiformes",
+      "enabled": true
+    },
+    "comnig": {
+      "commonName": "Common Nighthawk",
+      "family": "Caprimulgidae",
+      "order": "Caprimulgiformes",
+      "enabled": true
+    },
+    "chwwid": {
+      "commonName": "Chuck-will's-widow",
+      "family": "Caprimulgidae",
+      "order": "Caprimulgiformes",
+      "enabled": true
+    },
+    "chiswi": {
+      "commonName": "Chimney Swift",
+      "family": "Apodidae",
+      "order": "Apodiformes",
+      "enabled": true
+    },
+    "rthhum": {
+      "commonName": "Ruby-throated Hummingbird",
+      "family": "Trochilidae",
+      "order": "Apodiformes",
+      "enabled": true
+    },
+    "clarai11": {
+      "commonName": "Clapper Rail",
+      "family": "Rallidae",
+      "order": "Gruiformes",
+      "enabled": true
+    },
+    "sora": {
+      "commonName": "Sora",
+      "family": "Rallidae",
+      "order": "Gruiformes",
+      "enabled": true
+    },
+    "y00475": {
+      "commonName": "American Coot",
+      "family": "Rallidae",
+      "order": "Gruiformes",
+      "enabled": true
+    },
+    "purgal2": {
+      "commonName": "Purple Gallinule",
+      "family": "Rallidae",
+      "order": "Gruiformes",
+      "enabled": true
+    },
+    "whocra": {
+      "commonName": "Whooping Crane",
+      "family": "Gruidae",
+      "order": "Gruiformes",
+      "enabled": true
+    },
+    "bknsti": {
+      "commonName": "Black-necked Stilt",
+      "family": "Recurvirostridae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "ameavo": {
+      "commonName": "American Avocet",
+      "family": "Recurvirostridae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "ameoys": {
+      "commonName": "American Oystercatcher",
+      "family": "Haematopodidae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "amgplo": {
+      "commonName": "American Golden-Plover",
+      "family": "Charadriidae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "killde": {
+      "commonName": "Killdeer",
+      "family": "Charadriidae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "rudtur": {
+      "commonName": "Ruddy Turnstone",
+      "family": "Scolopacidae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "dunlin": {
+      "commonName": "Dunlin",
+      "family": "Scolopacidae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "amewoo": {
+      "commonName": "American Woodcock",
+      "family": "Scolopacidae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "wilsni1": {
+      "commonName": "Wilson's Snipe",
+      "family": "Scolopacidae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "sposan": {
+      "commonName": "Spotted Sandpiper",
+      "family": "Scolopacidae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "commur": {
+      "commonName": "Common Murre",
+      "family": "Alcidae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "tufpuf": {
+      "commonName": "Tufted Puffin",
+      "family": "Alcidae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "laugul": {
+      "commonName": "Laughing Gull",
+      "family": "Laridae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "ribgul": {
+      "commonName": "Ring-billed Gull",
+      "family": "Laridae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "hergul": {
+      "commonName": "Herring Gull",
+      "family": "Laridae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "leater1": {
+      "commonName": "Least Tern",
+      "family": "Laridae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "caster1": {
+      "commonName": "Caspian Tern",
+      "family": "Laridae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "blkter": {
+      "commonName": "Black Tern",
+      "family": "Laridae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "blkski": {
+      "commonName": "Black Skimmer",
+      "family": "Laridae",
+      "order": "Charadriiformes",
+      "enabled": true
+    },
+    "retloo": {
+      "commonName": "Red-throated Loon",
+      "family": "Gaviidae",
+      "order": "Gaviiformes",
+      "enabled": true
+    },
+    "comloo": {
+      "commonName": "Common Loon",
+      "family": "Gaviidae",
+      "order": "Gaviiformes",
+      "enabled": true
+    },
+    "layalb": {
+      "commonName": "Laysan Albatross",
+      "family": "Diomedeidae",
+      "order": "Procellariiformes",
+      "enabled": true
+    },
+    "norful": {
+      "commonName": "Northern Fulmar",
+      "family": "Procellariidae",
+      "order": "Procellariiformes",
+      "enabled": true
+    },
+    "woosto": {
+      "commonName": "Wood Stork",
+      "family": "Ciconiidae",
+      "order": "Ciconiiformes",
+      "enabled": true
+    },
+    "magfri": {
+      "commonName": "Magnificent Frigatebird",
+      "family": "Fregatidae",
+      "order": "Suliformes",
+      "enabled": true
+    },
+    "anhing": {
+      "commonName": "Anhinga",
+      "family": "Anhingidae",
+      "order": "Suliformes",
+      "enabled": true
+    },
+    "doccor": {
+      "commonName": "Double-crested Cormorant",
+      "family": "Phalacrocoracidae",
+      "order": "Suliformes",
+      "enabled": true
+    },
+    "amwpel": {
+      "commonName": "American White Pelican",
+      "family": "Pelecanidae",
+      "order": "Pelecaniformes",
+      "enabled": true
+    },
+    "amebit": {
+      "commonName": "American Bittern",
+      "family": "Ardeidae",
+      "order": "Pelecaniformes",
+      "enabled": true
+    },
+    "grbher3": {
+      "commonName": "Great Blue Heron",
+      "family": "Ardeidae",
+      "order": "Pelecaniformes",
+      "enabled": true
+    },
+    "snoegr": {
+      "commonName": "Snowy Egret",
+      "family": "Ardeidae",
+      "order": "Pelecaniformes",
+      "enabled": true
+    },
+    "grnher": {
+      "commonName": "Green Heron",
+      "family": "Ardeidae",
+      "order": "Pelecaniformes",
+      "enabled": true
+    },
+    "bcnher": {
+      "commonName": "Black-crowned Night-Heron",
+      "family": "Ardeidae",
+      "order": "Pelecaniformes",
+      "enabled": true
+    },
+    "rosspo1": {
+      "commonName": "Roseate Spoonbill",
+      "family": "Threskiornithidae",
+      "order": "Pelecaniformes",
+      "enabled": true
+    },
+    "calcon": {
+      "commonName": "California Condor",
+      "family": "Cathartidae",
+      "order": "Cathartiformes",
+      "enabled": true
+    },
+    "turvul": {
+      "commonName": "Turkey Vulture",
+      "family": "Cathartidae",
+      "order": "Cathartiformes",
+      "enabled": true
+    },
+    "osprey": {
+      "commonName": "Osprey",
+      "family": "Pandionidae",
+      "order": "Accipitriformes",
+      "enabled": true
+    },
+    "goleag": {
+      "commonName": "Golden Eagle",
+      "family": "Accipitridae",
+      "order": "Accipitriformes",
+      "enabled": true
+    },
+    "norhar2": {
+      "commonName": "Northern Harrier",
+      "family": "Accipitridae",
+      "order": "Accipitriformes",
+      "enabled": true
+    },
+    "coohaw": {
+      "commonName": "Cooper's Hawk",
+      "family": "Accipitridae",
+      "order": "Accipitriformes",
+      "enabled": true
+    },
+    "baleag": {
+      "commonName": "Bald Eagle",
+      "family": "Accipitridae",
+      "order": "Accipitriformes",
+      "enabled": true
+    },
+    "rethaw": {
+      "commonName": "Red-tailed Hawk",
+      "family": "Accipitridae",
+      "order": "Accipitriformes",
+      "enabled": true
+    },
+    "brnowl": {
+      "commonName": "Barn Owl",
+      "family": "Tytonidae",
+      "order": "Strigiformes",
+      "enabled": true
+    },
+    "screec1": {
+      "commonName": "Eastern Screech-Owl",
+      "family": "Strigidae",
+      "order": "Strigiformes",
+      "enabled": true
+    },
+    "grhowl": {
+      "commonName": "Great Horned Owl",
+      "family": "Strigidae",
+      "order": "Strigiformes",
+      "enabled": true
+    },
+    "snoowl1": {
+      "commonName": "Snowy Owl",
+      "family": "Strigidae",
+      "order": "Strigiformes",
+      "enabled": true
+    },
+    "brdowl": {
+      "commonName": "Barred Owl",
+      "family": "Strigidae",
+      "order": "Strigiformes",
+      "enabled": true
+    },
+    "belkin1": {
+      "commonName": "Belted Kingfisher",
+      "family": "Alcedinidae",
+      "order": "Coraciiformes",
+      "enabled": true
+    },
+    "yebsap": {
+      "commonName": "Yellow-bellied Sapsucker",
+      "family": "Picidae",
+      "order": "Piciformes",
+      "enabled": true
+    },
+    "rehwoo": {
+      "commonName": "Red-headed Woodpecker",
+      "family": "Picidae",
+      "order": "Piciformes",
+      "enabled": true
+    },
+    "dowwoo": {
+      "commonName": "Downy Woodpecker",
+      "family": "Picidae",
+      "order": "Piciformes",
+      "enabled": true
+    },
+    "pilwoo": {
+      "commonName": "Pileated Woodpecker",
+      "family": "Picidae",
+      "order": "Piciformes",
+      "enabled": true
+    },
+    "norfli": {
+      "commonName": "Northern Flicker",
+      "family": "Picidae",
+      "order": "Piciformes",
+      "enabled": true
+    },
+    "crecar1": {
+      "commonName": "Crested Caracara",
+      "family": "Falconidae",
+      "order": "Falconiformes",
+      "enabled": true
+    },
+    "amekes": {
+      "commonName": "American Kestrel",
+      "family": "Falconidae",
+      "order": "Falconiformes",
+      "enabled": true
+    },
+    "perfal": {
+      "commonName": "Peregrine Falcon",
+      "family": "Falconidae",
+      "order": "Falconiformes",
+      "enabled": true
+    },
+    "olsfly": {
+      "commonName": "Olive-sided Flycatcher",
+      "family": "Tyrannidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "easpho": {
+      "commonName": "Eastern Phoebe",
+      "family": "Tyrannidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "verfly": {
+      "commonName": "Vermilion Flycatcher",
+      "family": "Tyrannidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "grcfly": {
+      "commonName": "Great Crested Flycatcher",
+      "family": "Tyrannidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "easkin": {
+      "commonName": "Eastern Kingbird",
+      "family": "Tyrannidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "sctfly": {
+      "commonName": "Scissor-tailed Flycatcher",
+      "family": "Tyrannidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "warvir": {
+      "commonName": "Warbling Vireo",
+      "family": "Vireonidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "reevir1": {
+      "commonName": "Red-eyed Vireo",
+      "family": "Vireonidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "logshr": {
+      "commonName": "Loggerhead Shrike",
+      "family": "Laniidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "stejay": {
+      "commonName": "Steller's Jay",
+      "family": "Corvidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "blujay": {
+      "commonName": "Blue Jay",
+      "family": "Corvidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "bkbmag1": {
+      "commonName": "Black-billed Magpie",
+      "family": "Corvidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "amecro": {
+      "commonName": "American Crow",
+      "family": "Corvidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "comrav": {
+      "commonName": "Common Raven",
+      "family": "Corvidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "bkcchi": {
+      "commonName": "Black-capped Chickadee",
+      "family": "Paridae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "tuftit": {
+      "commonName": "Tufted Titmouse",
+      "family": "Paridae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "horlar": {
+      "commonName": "Horned Lark",
+      "family": "Alaudidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "purmar": {
+      "commonName": "Purple Martin",
+      "family": "Hirundinidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "barswa": {
+      "commonName": "Barn Swallow",
+      "family": "Hirundinidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "cliswa": {
+      "commonName": "Cliff Swallow",
+      "family": "Hirundinidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "gockin": {
+      "commonName": "Golden-crowned Kinglet",
+      "family": "Regulidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "ruckin": {
+      "commonName": "Ruby-crowned Kinglet",
+      "family": "Regulidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "rebnut": {
+      "commonName": "Red-breasted Nuthatch",
+      "family": "Sittidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "whbnut": {
+      "commonName": "White-breasted Nuthatch",
+      "family": "Sittidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "brncre": {
+      "commonName": "Brown Creeper",
+      "family": "Certhiidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "buggna": {
+      "commonName": "Blue-gray Gnatcatcher",
+      "family": "Polioptilidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "marwre": {
+      "commonName": "Marsh Wren",
+      "family": "Troglodytidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "carwre": {
+      "commonName": "Carolina Wren",
+      "family": "Troglodytidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "cacwre": {
+      "commonName": "Cactus Wren",
+      "family": "Troglodytidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "amedip": {
+      "commonName": "American Dipper",
+      "family": "Cinclidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "eursta": {
+      "commonName": "European Starling",
+      "family": "Sturnidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "grycat": {
+      "commonName": "Gray Catbird",
+      "family": "Mimidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "brnthr": {
+      "commonName": "Brown Thrasher",
+      "family": "Mimidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "normoc": {
+      "commonName": "Northern Mockingbird",
+      "family": "Mimidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "easblu": {
+      "commonName": "Eastern Bluebird",
+      "family": "Turdidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "woothr": {
+      "commonName": "Wood Thrush",
+      "family": "Turdidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "amerob": {
+      "commonName": "American Robin",
+      "family": "Turdidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "cedwax": {
+      "commonName": "Cedar Waxwing",
+      "family": "Bombycillidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "houspa": {
+      "commonName": "House Sparrow",
+      "family": "Passeridae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "evegro": {
+      "commonName": "Evening Grosbeak",
+      "family": "Fringillidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "houfin": {
+      "commonName": "House Finch",
+      "family": "Fringillidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "redcro": {
+      "commonName": "Red Crossbill",
+      "family": "Fringillidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "pinsis": {
+      "commonName": "Pine Siskin",
+      "family": "Fringillidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "amegfi": {
+      "commonName": "American Goldfinch",
+      "family": "Fringillidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "laplon": {
+      "commonName": "Lapland Longspur",
+      "family": "Calcariidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "snobun": {
+      "commonName": "Snow Bunting",
+      "family": "Calcariidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "chispa": {
+      "commonName": "Chipping Sparrow",
+      "family": "Passerellidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "bkcspa": {
+      "commonName": "Black-chinned Sparrow",
+      "family": "Passerellidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "larspa": {
+      "commonName": "Lark Sparrow",
+      "family": "Passerellidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "daejun": {
+      "commonName": "Dark-eyed Junco",
+      "family": "Passerellidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "whcspa": {
+      "commonName": "White-crowned Sparrow",
+      "family": "Passerellidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "harspa": {
+      "commonName": "Harris's Sparrow",
+      "family": "Passerellidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "spotow": {
+      "commonName": "Spotted Towhee",
+      "family": "Passerellidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "yehbla": {
+      "commonName": "Yellow-headed Blackbird",
+      "family": "Icteridae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "boboli": {
+      "commonName": "Bobolink",
+      "family": "Icteridae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "wesmea": {
+      "commonName": "Western Meadowlark",
+      "family": "Icteridae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "balori": {
+      "commonName": "Baltimore Oriole",
+      "family": "Icteridae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "rewbla": {
+      "commonName": "Red-winged Blackbird",
+      "family": "Icteridae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "bnhcow": {
+      "commonName": "Brown-headed Cowbird",
+      "family": "Icteridae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "comgra": {
+      "commonName": "Common Grackle",
+      "family": "Icteridae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "ovenbi1": {
+      "commonName": "Ovenbird",
+      "family": "Parulidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "bawwar": {
+      "commonName": "Black-and-white Warbler",
+      "family": "Parulidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "kenwar": {
+      "commonName": "Kentucky Warbler",
+      "family": "Parulidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "comyel": {
+      "commonName": "Common Yellowthroat",
+      "family": "Parulidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "amered": {
+      "commonName": "American Redstart",
+      "family": "Parulidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "magwar": {
+      "commonName": "Magnolia Warbler",
+      "family": "Parulidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "yelwar": {
+      "commonName": "Yellow Warbler",
+      "family": "Parulidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "yerwar": {
+      "commonName": "Yellow-rumped Warbler",
+      "family": "Parulidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "btnwar": {
+      "commonName": "Black-throated Green Warbler",
+      "family": "Parulidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "scatan": {
+      "commonName": "Scarlet Tanager",
+      "family": "Cardinalidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "norcar": {
+      "commonName": "Northern Cardinal",
+      "family": "Cardinalidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "indbun": {
+      "commonName": "Indigo Bunting",
+      "family": "Cardinalidae",
+      "order": "Passeriformes",
+      "enabled": true
+    },
+    "paibun": {
+      "commonName": "Painted Bunting",
+      "family": "Cardinalidae",
+      "order": "Passeriformes",
+      "enabled": true
+    }
+  }
+}

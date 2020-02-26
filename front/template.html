@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <base href="{{ baseURL }}"/>
+        <link href="https://cdn.jsdelivr.net/npm/froala-editor@3.0.6/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/froala-editor@3.0.6/js/froala_editor.pkgd.min.js"></script>
+    </head>
+    <body>
+        <style>
+            {% include 'main.css' %}
+        </style>
+        <div id="content">
+            {% for oname, order in orders.items() %}
+                <h1>{{ oname }}</h1>
+                {% for fname in order["families"] %}
+                    <h2>{{ families[fname]["commonName"] }} (<em>{{ fname }}</em>)</h2>
+                    <table>
+                        {% for sid in families[fname]["species"] %}
+                            {% set data = species[sid]["templateData"] %}
+                            <tr>
+                                <td>{{ data["speciesInfo"] }}</td>
+                                {% for i in data["imgs"] %}
+                                    <td><img width="200px" src="{{ i['url'] }}"></img>{{ i["annotation"] }}</td>
+                                {% endfor %}
+                                <td><img width="200px" src="{{ data['migMap'] }}"></img></td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </body>
+    <script>
+    new FroalaEditor('div#content', {
+        toolbarInline: true,
+    })
+    </script>
+</html>
