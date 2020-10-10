@@ -5,7 +5,7 @@ from markupsafe import Markup
 
 import requests_cache
 
-requests_cache.install_cache('allaboutbirds_cache_01062020')
+requests_cache.install_cache('allaboutbirds_cache_10102020')
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0'
@@ -43,7 +43,7 @@ def scrape(baseURL):
     idSoup = BeautifulSoup(idPage.text, "html.parser")
 
     track = idSoup.find(class_="slider").contents
-    results['imgs'] = [{'annotation': Markup(slide.select_one('.annotation-txt h5')), 'url': processInterchange(slide.find('img')['data-interchange'])} for slide in track[:3]]
+    results['imgs'] = [{'annotation': Markup(slide.select_one('.annotation-txt h3')), 'url': processInterchange(slide.find('img')['data-interchange'])} for slide in track[:3]]
 
     return results
 
